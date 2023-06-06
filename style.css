@@ -1,0 +1,34 @@
+.logo{
+    width: 500px;
+    height: 500px;
+    background-color:   white;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.logo::before{
+    height: 300px;
+    width: 100px;
+    content: "";
+    background-color: rgb(56, 126, 247);
+    position: absolute;
+    border-radius: 10px;
+    top: 20%;
+    left: 20%;
+}
+.logo::after{
+    height: 150px;
+    width: 100px;
+    content: "";
+    background-color: rgb(56, 126, 247);
+    position: absolute;
+    border-radius: 10px;
+    right: 20%;
+    top:20%;
+}
+body{
+    background-color: rgb(56, 126, 247);
+}
